@@ -11,11 +11,12 @@ public class Ball : MonoBehaviour
 
         Vector3 initialPos;
         Quaternion initalRot;
+        bool hasHit = false;
 
     // Start is called before the first frame update
     void Start()
     {
-            Instantiate(referenceToPrefab, initialPos, initalRot);
+            //Instantiate(referenceToPrefab, initialPos, initalRot);
             initialPos = transform.position;
             initalRot = transform.rotation;
     }
@@ -27,10 +28,12 @@ public class Ball : MonoBehaviour
     }
         private void OnCollisionEnter(Collision collision)
         {
-            if (collision.gameObject == true)
+            if (collision.gameObject.tag == "Room" && hasHit == false)
             {
                 Instantiate(referenceToPrefab, initialPos, initalRot);
                 Destroy(gameObject, 3);
+
+                hasHit = !hasHit;
             }
         }
     }
