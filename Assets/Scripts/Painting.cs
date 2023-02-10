@@ -20,7 +20,6 @@ namespace Art_VR
             if (collision.gameObject.tag == "Ball")
             {
                 rigidBody.isKinematic = false;
-                
             }
         }
     }
