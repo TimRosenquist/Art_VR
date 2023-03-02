@@ -57,6 +57,10 @@ PrefabInstance:
       propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 9000000, guid: 7683f6ec2d7e916408c178f52b42ad9d, type: 2}
+    - target: {fileID: 109434732392105323, guid: 7811abe38615a86438f679bcf79f5b92, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51417bcb413879c45968a4d4d605cac0, type: 2}
     - target: {fileID: 109434732395284509, guid: 7811abe38615a86438f679bcf79f5b92, type: 3}
       propertyPath: m_Name
       value: Custom Left Hand Model
