@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Art_VR 
-{      
-public class Ball : MonoBehaviour
+{
+    [RequireComponent(typeof(AudioSource))]
+    public class Ball : MonoBehaviour
 {
         [SerializeField]
         GameObject referenceToPrefab;
@@ -13,12 +14,17 @@ public class Ball : MonoBehaviour
         Quaternion initalRot;
         bool hasHit = false;
 
+        AudioSource audioSource;
+        public AudioClip audioClip;
+
     // Start is called before the first frame update
     void Start()
     {
             //Instantiate(referenceToPrefab, initialPos, initalRot);
             initialPos = transform.position;
             initalRot = transform.rotation;
+            //Get Audiosource component
+            audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,6 +36,7 @@ public class Ball : MonoBehaviour
         {
             if (collision.gameObject.tag == "Room" && hasHit == false)
             {
+                audioSource.PlayOneShot(audioClip);
                 Instantiate(referenceToPrefab, initialPos, initalRot);
                 Destroy(gameObject, 3);
 
