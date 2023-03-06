@@ -39,7 +39,6 @@ namespace Art_VR
                 audioSource.PlayOneShot(audioClip);
                 Instantiate(referenceToPrefab, initialPos, initalRot);
                 Destroy(gameObject, 3);
-
                 hasHit = !hasHit;
             }
         }

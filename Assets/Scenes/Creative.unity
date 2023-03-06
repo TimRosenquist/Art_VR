@@ -4788,15 +4788,23 @@ PrefabInstance:
     - target: {fileID: 641556412242341455, guid: bf37b1d004a3a724a8685bf410067c64, type: 3}
       propertyPath: audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d0c6cfff0d6fac64094aaaeb8b1b9a9f, type: 3}
+      objectReference: {fileID: 8300000, guid: 5d96d763828149f43a8d5a31b34bfcf2, type: 3}
     - target: {fileID: 3090627287376483091, guid: bf37b1d004a3a724a8685bf410067c64, type: 3}
       propertyPath: MaxDistance
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3090627287376483091, guid: bf37b1d004a3a724a8685bf410067c64, type: 3}
+      propertyPath: MinDistance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090627287376483091, guid: bf37b1d004a3a724a8685bf410067c64, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3090627287376483091, guid: bf37b1d004a3a724a8685bf410067c64, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 420e7a5ab716aa94f8b70222e36e2ad2, type: 2}
     - target: {fileID: 3090627287376483091, guid: bf37b1d004a3a724a8685bf410067c64, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
@@ -4913,15 +4921,23 @@ PrefabInstance:
     - target: {fileID: 8190485903266465925, guid: d0d3974d08be8914ca928afa547272a9, type: 3}
       propertyPath: audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d0c6cfff0d6fac64094aaaeb8b1b9a9f, type: 3}
+      objectReference: {fileID: 8300000, guid: 5d96d763828149f43a8d5a31b34bfcf2, type: 3}
     - target: {fileID: 8668242055421509747, guid: d0d3974d08be8914ca928afa547272a9, type: 3}
       propertyPath: MaxDistance
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8668242055421509747, guid: d0d3974d08be8914ca928afa547272a9, type: 3}
+      propertyPath: MinDistance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668242055421509747, guid: d0d3974d08be8914ca928afa547272a9, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8668242055421509747, guid: d0d3974d08be8914ca928afa547272a9, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 420e7a5ab716aa94f8b70222e36e2ad2, type: 2}
     - target: {fileID: 8668242055421509747, guid: d0d3974d08be8914ca928afa547272a9, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
@@ -4940,9 +4956,17 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4207771326560105, guid: d3ca333966ab6564fb68f1613dcb9b55, type: 3}
+      propertyPath: MinDistance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4207771326560105, guid: d3ca333966ab6564fb68f1613dcb9b55, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4207771326560105, guid: d3ca333966ab6564fb68f1613dcb9b55, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 420e7a5ab716aa94f8b70222e36e2ad2, type: 2}
     - target: {fileID: 4207771326560105, guid: d3ca333966ab6564fb68f1613dcb9b55, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
@@ -4998,7 +5022,7 @@ PrefabInstance:
     - target: {fileID: 7409140164420882749, guid: d3ca333966ab6564fb68f1613dcb9b55, type: 3}
       propertyPath: audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d0c6cfff0d6fac64094aaaeb8b1b9a9f, type: 3}
+      objectReference: {fileID: 8300000, guid: 5d96d763828149f43a8d5a31b34bfcf2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3ca333966ab6564fb68f1613dcb9b55, type: 3}
 --- !u!4 &6608553831123069343 stripped
@@ -5144,15 +5168,23 @@ PrefabInstance:
     - target: {fileID: 6142367689902893797, guid: 717aeedd3c87efc40837f32d4fde32c0, type: 3}
       propertyPath: audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d0c6cfff0d6fac64094aaaeb8b1b9a9f, type: 3}
+      objectReference: {fileID: 8300000, guid: 5d96d763828149f43a8d5a31b34bfcf2, type: 3}
     - target: {fileID: 7872032357564110631, guid: 717aeedd3c87efc40837f32d4fde32c0, type: 3}
       propertyPath: MaxDistance
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7872032357564110631, guid: 717aeedd3c87efc40837f32d4fde32c0, type: 3}
+      propertyPath: MinDistance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7872032357564110631, guid: 717aeedd3c87efc40837f32d4fde32c0, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7872032357564110631, guid: 717aeedd3c87efc40837f32d4fde32c0, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 420e7a5ab716aa94f8b70222e36e2ad2, type: 2}
     - target: {fileID: 7872032357564110631, guid: 717aeedd3c87efc40837f32d4fde32c0, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
@@ -5279,9 +5311,17 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5455050386446241265, guid: 7a9a9d7f0f36f0c40a6a152ec6d6d40a, type: 3}
+      propertyPath: MinDistance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5455050386446241265, guid: 7a9a9d7f0f36f0c40a6a152ec6d6d40a, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5455050386446241265, guid: 7a9a9d7f0f36f0c40a6a152ec6d6d40a, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 420e7a5ab716aa94f8b70222e36e2ad2, type: 2}
     - target: {fileID: 5455050386446241265, guid: 7a9a9d7f0f36f0c40a6a152ec6d6d40a, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
@@ -5289,6 +5329,6 @@ PrefabInstance:
     - target: {fileID: 5736835386234894636, guid: 7a9a9d7f0f36f0c40a6a152ec6d6d40a, type: 3}
       propertyPath: audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d0c6cfff0d6fac64094aaaeb8b1b9a9f, type: 3}
+      objectReference: {fileID: 8300000, guid: 5d96d763828149f43a8d5a31b34bfcf2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a9a9d7f0f36f0c40a6a152ec6d6d40a, type: 3}
