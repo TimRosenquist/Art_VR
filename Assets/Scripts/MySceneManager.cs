@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
-using System.Threading.Tasks;
 
 namespace Art_VR
 {
@@ -14,11 +13,11 @@ namespace Art_VR
         InputAction mainMenu;
         public void LoadCreativeScene()
         {
-            LoadSceneAsync("Creative");
+            LoadScene("Creative");
         }
         public void LoadAnarchyScene()
         {
-            LoadSceneAsync("Anarchy");
+            LoadScene("Anarchy");
         }
         public void QuitApplication()
         {
@@ -31,12 +30,27 @@ namespace Art_VR
             mainMenu.Enable();
             mainMenu.performed += MainMenu_performed;
         }
-        private void MainMenu_performed(InputAction.CallbackContext obj)
+        private void OnDisable()
         {
-            LoadSceneAsync("Main Menu");
+            inputActions = new XRIDefaultInputActions();
+            mainMenu = inputActions.XRILeftHandInteraction.MainMenu;
+            mainMenu.Disable();
+            mainMenu.performed -= MainMenu_performed;
         }
 
-        public async void LoadSceneAsync(string sceneName)
+
+        private void MainMenu_performed(InputAction.CallbackContext obj)
+        {
+            LoadScene("Main Menu");
+        }
+
+        public void LoadScene(string sceneName)
+        {
+            if (this != null)
+            StartCoroutine(LoadSceneCoroutine(sceneName));
+        }
+
+        private IEnumerator LoadSceneCoroutine(string sceneName)
         {
             // Load the scene asynchronously in the background
             AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
@@ -44,22 +58,13 @@ namespace Art_VR
             // Wait until the scene is fully loaded
             while (!asyncOperation.isDone)
             {
-                await Task.Yield();
+                yield return null;
             }
         }
-
-        /*public async void UnloadSceneAsync(string sceneName)
-        {
-            // Unload the scene asynchronously in the background
-            AsyncOperation asyncOperation = SceneManager.UnloadSceneAsync(sceneName);
-
-            // Wait until the scene is fully unloaded
-            while (!asyncOperation.isDone)
-            {
-                await Task.Yield();
-            }*/
     }
-}   
+} 
+    
+     
 
   
  

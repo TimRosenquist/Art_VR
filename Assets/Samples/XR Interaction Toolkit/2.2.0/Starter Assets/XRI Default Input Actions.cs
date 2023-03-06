@@ -818,7 +818,7 @@ namespace Art_VR
                 {
                     ""name"": """",
                     ""id"": ""1ce80054-410d-4112-a332-50faa7fb4f23"",
-                    ""path"": ""<XRController>{RightHand}/gripPressed"",
+                    ""path"": ""<XRController>{RightHand}/triggerPressed"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Generic XR Controller"",

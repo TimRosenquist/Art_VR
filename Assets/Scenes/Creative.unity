@@ -1116,7 +1116,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 279900978}
-  - component: {fileID: 279900979}
   m_Layer: 0
   m_Name: Room
   m_TagString: Untagged
@@ -1145,21 +1144,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &279900979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279900977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0023c83de8e0974aaa09b70c9a09feb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToPaint: {fileID: 0}
-  paintColor: {r: 0, g: 0, b: 0, a: 0}
-  brushSize: 0.1
 --- !u!1 &307713567
 GameObject:
   m_ObjectHideFlags: 0
@@ -4865,7 +4849,6 @@ GameObject:
   - component: {fileID: 1267412753}
   - component: {fileID: 1267412752}
   - component: {fileID: 1267412751}
-  - component: {fileID: 1267412755}
   m_Layer: 0
   m_Name: Table
   m_TagString: Untagged
@@ -4949,21 +4932,6 @@ Transform:
   m_Father: {fileID: 279900978}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1267412755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267412750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0023c83de8e0974aaa09b70c9a09feb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToPaint: {fileID: 0}
-  paintColor: {r: 0, g: 0, b: 0, a: 0}
-  brushSize: 0.1
 --- !u!1 &1281614689
 GameObject:
   m_ObjectHideFlags: 0
@@ -6826,26 +6794,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2108941542}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2113370151 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4257424424213540700, guid: 717aeedd3c87efc40837f32d4fde32c0, type: 3}
-  m_PrefabInstance: {fileID: 6963449334708890256}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2113370152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2113370151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0023c83de8e0974aaa09b70c9a09feb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToPaint: {fileID: 279900977}
-  paintColor: {r: 0.9176471, g: 0.03529412, b: 0, a: 0}
-  brushSize: 0.1
 --- !u!1001 &4106839193549120450
 PrefabInstance:
   m_ObjectHideFlags: 0
