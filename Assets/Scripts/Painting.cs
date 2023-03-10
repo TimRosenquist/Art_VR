@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Art_VR
 {
     [RequireComponent(typeof(AudioSource))]
     public class Painting : MonoBehaviour
     {
+         public GameObject activPaint;
          public AudioClip audioClip;
          AudioSource audioSource;
         private Rigidbody rigidBody;
@@ -22,6 +24,7 @@ namespace Art_VR
             if (collision.gameObject.tag == "Ball")
             {
                 rigidBody.isKinematic = false;
+                activPaint.SetActive(false);
             }
         }
         private void OnTriggerEnter(Collider other)
