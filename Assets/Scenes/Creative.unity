@@ -1791,7 +1791,7 @@ GameObject:
   - component: {fileID: 467563427}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Room
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1982,7 +1982,7 @@ GameObject:
   - component: {fileID: 561509009}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Room
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2554,7 +2554,7 @@ GameObject:
   - component: {fileID: 960564999}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Room
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3382,7 +3382,7 @@ GameObject:
   - component: {fileID: 1281614691}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Room
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
