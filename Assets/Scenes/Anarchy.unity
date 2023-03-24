@@ -1083,7 +1083,7 @@ GameObject:
   - component: {fileID: 270719549}
   m_Layer: 0
   m_Name: Room.2
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 279900978}
   m_Layer: 0
   m_Name: Room
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3651,7 +3651,7 @@ GameObject:
   - component: {fileID: 1107434026}
   m_Layer: 0
   m_Name: Room.3
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4142,7 +4142,7 @@ GameObject:
   - component: {fileID: 1292932842}
   m_Layer: 0
   m_Name: Corridor
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6210,7 +6210,7 @@ GameObject:
   - component: {fileID: 2061464854}
   m_Layer: 0
   m_Name: Room.1
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295

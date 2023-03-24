@@ -34,7 +34,7 @@ namespace Art_VR
     }
         private void OnCollisionEnter(Collision collision)
         {
-            if (collision.gameObject.tag == "Floor" && hasHit == false)
+            if (collision.gameObject.tag == "Room" && hasHit == false)
             {
                 audioSource.PlayOneShot(audioClip);
                 Instantiate(referenceToPrefab, initialPos, initalRot);
